@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const nodemailer = require('nodemailer');
-const ctrlUser = require('../controllers/user.controller');
+const ctrlUser = require('../controllers/User');
 const passport = require('passport');
 
 const jwtHelper = require('../helpers/jwthelper');
